@@ -26,15 +26,16 @@ public class Soru01 {
 
         int sayac=0;
 
-        for (int i =0; i <cumle.length()-1 ; i++) {
+        for (int i =0; i <=cumle.length()-1; i++) {
 
-            if (i==harf){
+            if (cumle.charAt(i)==harf){
                 sayac++;
+
             }
 
-            System.out.println("aradığınız" + harf + "harfi" + sayac + "kere vardır");
-
         }
+        System.out.println("aradığınız" +" "+ harf + " "+"harfi" +" "+ sayac +" "+ "kere vardır");
+
 
 
 
