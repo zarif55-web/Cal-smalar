@@ -2,7 +2,7 @@ package deneme01;
 
 import java.util.Scanner;
 
-public class Soru02 {
+public class Soru02AsalSayı {
 
     // Kullanıcıdan pozitif bir sayı girmesini isteyin
     // girilen sayının asal olup olmadığını kontrol edin

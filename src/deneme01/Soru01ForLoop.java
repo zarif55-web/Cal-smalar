@@ -2,7 +2,7 @@ package deneme01;
 
 import java.util.Scanner;
 
-public class Soru01 {
+public class Soru01ForLoop {
 
     /*
      * Kullanicidan bir cumle ve bir harf alin,
