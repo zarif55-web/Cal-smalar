@@ -13,11 +13,12 @@ public class Soru07_Manipulation {
         String dusunce=scan.nextLine();
 
         //hem bosluk var mı diye bakacagız, hem de bos mu diye bakacagız
+        String bosluk=" ";
 
-        if (!dusunce.isBlank() && !dusunce.isEmpty()){
-            System.out.println("kullanıcı duygularını bosluksuz anlatmıs");
-        } else {
+        if (!dusunce.isEmpty() && dusunce.contains(bosluk) ){
             System.out.println("kullanıcı duygularını guzel anlatmıs");
+        } else {
+            System.out.println("kullanıcı duygularını eksik veya bosluksuz anlatmıs");
         }
 
 
