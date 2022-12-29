@@ -13,18 +13,18 @@ public class Soru04_DizilimDondurme {
 
     public static void main(String[] args) {
 
-        String str="xYzad";
+        String str="AlixaYZ.bey";
 
-        System.out.println(dizilimDondurme(str));
-
+        dizilimDondurme(str);
 
     }
-    public static String dizilimDondurme(String str){
+    public  static String dizilimDondurme(String str){
 
         if (str.toLowerCase().contains("xyz")){
-            System.out.println("gilen ifade xyz dizilimi içeriyor, bu yuzden TRUE");
-        }else System.out.println("gilen ifade xyz dizilimi içermiyor, bu yuzden FALSE");
+            System.out.println("xyz yanyana yazılmıstır sonuc TRUE");
+        }else System.out.println("xyz diziliminin arsına kaynak yapılms FALSE");
 
         return str;
     }
+
 }

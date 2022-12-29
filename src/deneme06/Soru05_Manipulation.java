@@ -7,17 +7,21 @@ public class Soru05_Manipulation {
 
         String str="   Java ogrenmek123 Cok guzel@      ";
 
-        str=str.replaceAll("\\d",""); //sayı olanları cıkardık
+        str=str.replaceAll("\\d",""); // sayıları cıkardık
 
-        str=str.replaceAll(" ","*"); // space olan yerleri belirledik
+        str=str.replaceAll(" ","*"); // spclere * atadık
 
-        str=str.trim().substring(3,str.length()-7); // basta ve sonda * olan yerleri kestik
+        str=str.substring(3,str.length()-6); // basta ve sonda bosluk kalmadı
 
-        str=str.replaceAll("\\W"," "); // * olan yerlee space koyduk
+        str=str.replaceAll("@",""); // sondaki @ gitti
 
-        str=str.replaceAll("C","c"); // buyuk C'yi kucuk c yaptık
+        str=str.replaceAll("\\W", " "); // aradaki *'ları space yaptik
 
-        System.out.println("istenilen str : " + str);
+        str=str.substring(0,1).toUpperCase()+str.substring(1).toLowerCase();//buyuk C harfini kucuck c yaptik
+
+        System.out.println(str);
+
+
 
 
 

@@ -13,14 +13,12 @@ public class Soru06_Manipulation {
         String isim=scan.nextLine().toUpperCase();
         System.out.println("lutfen soyisminizi giriniz");
         String soyisim=scan.nextLine().toUpperCase();
-
+        
         if (isim.length()>soyisim.length()){
             System.out.println("isim daha uzun :" + isim);
         } else if (isim.length()<soyisim.length()) {
-            System.out.println("soyisim daha uzun :"+ soyisim);
-        }else System.out.println("isim ve soyisim aynı uzunlukta");
-
-
+            System.out.println("soyisim daha uzun :"  + soyisim);
+        }else System.out.println("uzunluklar eşit ne sana ne bana");
 
 
     }
